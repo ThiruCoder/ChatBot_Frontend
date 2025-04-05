@@ -7,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "serve -s build -l 10000",
-    "preinstall": "npm install -g serve"
+    "preview": "vite preview --port 10000",
+    "start": "vite preview --port 10000"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

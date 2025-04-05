@@ -3,7 +3,7 @@ import { Box, AppBar, Toolbar, Typography, TextField, IconButton, Avatar, Badge,
 import { Send, EmojiEmotions, AttachFile, Videocam, Mic } from '@mui/icons-material';
 import { motion, AnimatePresence } from 'framer-motion';
 import io from 'socket.io-client';
-const SERVER_URL = import.meta.env.REACT_APP_SERVER_URL || 'http://localhost:3001'
+const SERVER_URL = import.meta.env.REACT_APP_SERVER_URL || 'https://chatbot-backend-l5r0.onrender.com'
 
 
 // ✅ Fix socket connection

@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s build -l 5175",
+    "start": "serve -s build -l $PORT",
     "preinstall": "npm install -g serve"
   },
   "dependencies": {

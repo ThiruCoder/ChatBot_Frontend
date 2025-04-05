@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s build -l 5175"
+    "start": "serve -s build -l 5175",
+    "preinstall": "npm install -g serve"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -30,6 +31,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "serve": "^14.2.4",
     "vite": "^6.2.0"
   }
 }
